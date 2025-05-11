@@ -20,6 +20,7 @@ for(let i = 0; i < resCodes.length; i++){
 
     img.src = url
     img.style.width = "50%"
+    img.classList.add("m-3");
 
     console.log(url)
 
