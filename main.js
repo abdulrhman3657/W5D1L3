@@ -14,10 +14,12 @@ let container = document.getElementById("container")
 for(let i = 0; i < resCodes.length; i++){
 
     let img = document.createElement("img")
+    img.addClas
 
     let url = `https://http.cat/${resCodes[i]}`
 
     img.src = url
+    img.style.width = "50%"
 
     console.log(url)
 
